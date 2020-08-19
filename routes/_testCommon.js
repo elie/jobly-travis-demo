@@ -1,9 +1,9 @@
 "use strict";
 
 const db = require("../db.js");
-const User = require("../models/User");
-const Company = require("../models/Company");
-const Job = require("../models/Job");
+const User = require("../models/user");
+const Company = require("../models/company");
+const Job = require("../models/job");
 const { createToken } = require("../helpers/tokens");
 
 const testJobIds = [];
