@@ -1,7 +1,7 @@
 "use strict";
 
 const db = require("../db.js");
-const Company = require("./Company.js");
+const Company = require("./company.js");
 const {
   commonBeforeAll,
   commonBeforeEach,
