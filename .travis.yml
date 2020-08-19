@@ -5,7 +5,7 @@ services:
   - postgresql
 before_script:
   - psql -c 'create database jobly_test;' -U postgres
-  - psql jobly_test < jobly.sql
+  - psql < jobly.sql
 install:
 - npm install
 - npm install --save-dev jest
