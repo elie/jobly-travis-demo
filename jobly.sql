@@ -68,10 +68,6 @@ INSERT INTO applications(username, job_id, state)
     ('test', 2, 'rejected'),
     ('test', 3, 'applied');
 
-
-\echo 'Delete and recreate jobly_test db?'
-\prompt 'Return for yes or control-C to cancel > ' foo
-
 DROP DATABASE jobly_test;
 CREATE DATABASE jobly_test;
 \connect jobly_test
