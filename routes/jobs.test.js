@@ -34,7 +34,7 @@ describe("POST /jobs", function () {
     expect(resp.statusCode).toEqual(201);
     expect(resp.body).toEqual({
       job: {
-        id: "no chance",
+        id: expect.any(Number),
         title: "J-new",
         salary: 10,
         equity: "0.2",
